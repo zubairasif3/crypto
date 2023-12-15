@@ -2095,3 +2095,55 @@ body .navbar-toggler-icon {
     padding-left: 80px;
   }
 }
+
+/* google translater style */
+
+body{
+  top: 0px !important;
+}
+.skiptranslate{
+  display: none;
+}
+.nav-inner{
+  position: relative;
+  padding-top: 30px;
+}
+.vector-translater{
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.vector-translater label{
+  color: #FFF;
+  display: inline-block;
+}
+.page-three .sticky .vector-translater label {
+  color: var(--primary-color);
+}
+.goog-te-gadget{
+  height: 25px;
+  overflow: hidden;
+  display: block;
+}
+@media screen and (max-width:991px) {
+  .nav-inner{
+    padding-top: 0px;
+  }
+  .vector-translater label{
+    color: #000;
+  }
+  .vector-translater{
+    left: 36px;
+    right: auto;
+    top: 12px;
+  }
+  .page-three .header .navbar-collapse{
+    padding-top: 30px;
+  }
+  .page-three .header .navbar-collapse{
+    max-height: 380px;
+  }
+}
