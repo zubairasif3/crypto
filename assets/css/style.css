@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #0D0D0D;
+}
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 31.5px;
+    border-radius: 12px;
+}
+.btn-warning {
+    color: #fff;
+}
+.wrapper {
+    background-image: url('../imgs/wrapper-bg.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 810px 790px;
+}
+.header {
+    padding: 40px 0px 14px;
+    border-bottom: 1px solid #fff;
+}
+.header .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31.5px;
+    color: #fff;
+    padding: 8px 18px;
+}
+
+.hero-section {
+    padding: 85px 0px 75px;
+    overflow-x: hidden;
+    position: relative;
+}
+.hero-section::before,
+.hero-section::after {
+    content: "";
+    position: absolute;
+    width: 108.05px;
+    height: 108.05px;
+    right: -35px;
+    bottom: 40px;
+    z-index: 1000;
+    background-image: url('../imgs/hero-vector-right.png');
+    background-size: contain;
+}
+.hero-section::before {
+    background-image: url('../imgs/hero-vector-center.png');
+    top: 32px;
+    bottom: auto;
+    right: 43%;
+}
+.hero-section .img {
+    max-width: 450px;
+    margin: auto;
+}
+
+.heading {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 62px;
+}
+
+.indus-section {
+    padding: 30px 0px;
+    text-align: center;
+}
+.indus-section .top-content {
+    max-width: 650px;
+    margin: auto;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+.indus-section .top-content .heading {
+    margin-bottom: 16px;
+}
+.text-09BE8B {
+    color: #09BE8B;
+}
+
+.icon-card-section {
+    padding: 60px 0px;
+}
+.bg-icon-card {
+    background-color: #272C26;
+    border-radius: 20px;
+    padding: 40px 8px;
+}
+.icon-card {
+    max-width: 360px;
+    margin: auto;
+}
+.icon-card .icon {
+    margin-bottom: 16px;
+}
+.icon-card .icon img {
+    width: 120px;
+}
+.icon-card .title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+.icon-card .text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29.68px;
+}
+
+.table-section {
+    text-align: center;
+    padding: 40px 0px;
+    color: #FFFFFF;
+}
+div.dt-container div.dt-info,
+.table-section  li,
+.table-section  label {
+    font-size: 14px;
+}
+.table-section #myTable th,
+.table-section #myTable td {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 12px;
+    vertical-align: middle;
+}
+.table-section #myTable tbody tr td:nth-child(2) a,
+.table-section #myTable tbody tr td:nth-child(1) a{
+    height: auto;
+    min-width: 85px;
+    border: none;
+    background-color: #34495e;
+    padding: 3px 6.2px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.table-section #myTable tbody tr td:nth-child(2) a{
+    background-color: #26AE60;
+}
+.dt-paging-button a {
+    background-color: rgba(255, 255, 255, 0.01) !important;
+    color: gray !important;
+    border: 1px solid rgba(255, 255, 255, 0.31) !important;
+}
+.page-item.active .page-link,
+.dt-paging-button:hover a{
+    color: #FFFFFF !important;
+    background-color: rgba(255, 255, 255, 0.31) !important;
+}
+
+
+.testimonial-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.testimonial-card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    color: #030303;
+    padding: 50px 20px 24px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.testimonial-card .stars {
+    color: #F39C12;
+    margin-bottom: 18px;
+}
+.testimonial-card .profile-flex {
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.testimonial-card .profile-flex .img {
+    max-width: 80px;
+}
+.testimonial-card .profile-flex .name {
+    margin-bottom: 10px;
+}
+.testimonial-card .profile-flex .designation {
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+}
+.owl-carousel.owl-drag .owl-item {
+    padding-top: 80px;
+    transition: 0.3s all;
+}
+.owl-carousel.owl-drag .owl-item.center {
+    padding-top: 40px;
+}
+
+.footer-section {
+    background-color: #000000;
+    padding: 70px 0px 50px;
+}
+.footer-section .footer-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    color: #09BE8B;
+    margin-bottom: 40px;
+}
+.footer-section .footer-link a,
+.footer-section .footer-link {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+.footer-section .social-link {
+    padding: 0px 12px;
+    display: inline-block;
+}
+.footer-section .social-link i {
+    font-size: 44px;
+}
+.footer-section .footer-subs {
+    display: flex;
+    gap: 5px;
+    padding: 15px 12px 10px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    max-width: 360px;
+    margin-left: auto;
+}
+.footer-section .footer-subs input {
+    background-color: transparent;
+    border: 0px;
+    padding: 0px;
+    height: 48px;
+    font-size: 18px;
+}
+.footer-section .footer-subs .btn-send {
+    height: 48px;
+    padding: 4px 28px;
+    font-size: 12px;
+    line-height: 20.05px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .hero-section::before,
+    .hero-section::after {
+        display: none;
+    }
+    .logo-img {
+        max-width: 60px;
+    }
+    .header {
+        padding: 10px 0px;
+    }
+    .hero-section {
+        padding: 30px 0px;
+    }
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+    .heading{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .hero-section .img{
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+    .top-content {
+        padding: 0px 12px;
+    }
+    .indus-section .img {
+        max-width: 350px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .icon-card .title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .icon-card .text {
+        font-size: 19px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .icon-card .icon {
+        margin-bottom: 14px;
+    }
+    .icon-card .icon img{
+        width: 90px;
+    }
+    .footer-section .social-link i,
+    .footer-section .footer-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .footer-section .footer-link a,
+    .footer-section .footer-link {
+        font-size: 19px;
+        line-height: 23px;
+    }
+    .footer-section .footer-title {
+        margin: 12px 0px;
+    }
+    .footer-logo img {
+        margin-bottom: 22px;
+    }
+}
